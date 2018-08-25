@@ -14,9 +14,9 @@ const Index = () => {
   return (<Layout>
     <h1>My Blog</h1>
     <ul>
-      <PostLink title="Hello Next.js"/>
-      <PostLink title="Learn Next.js is awesome"/>
-      <PostLink title="Deploy apps with Zeit"/>
+      <PostLink title="Hello Next.js" id="hello"/>
+      <PostLink title="Learn Next.js is awesome" id="learn"/>
+      <PostLink title="Deploy apps with Zeit" id="deploy"/>
     </ul>
   </Layout>)
 }
